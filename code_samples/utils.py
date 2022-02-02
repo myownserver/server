@@ -43,7 +43,7 @@ def m3ugen():
 
 def saveM3ustringtofile(m3ustr):
     with open("SuperPlay.m3u", "w") as SuperPlayFile:
-    SuperPlayFile.write(m3ustr)
+        SuperPlayFile.write(m3ustr)
 
 
 def getPrintNote():
