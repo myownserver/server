@@ -44,7 +44,7 @@ def m3ugen():
 
 
 def saveM3ustringtofile(m3ustr):
-    with open("SuperPlay.m3u", "w") as SuperPlaylistFile:
+    with open("SuperPlay.m3u", "w") as SuperPlayFile:
         SuperPlayFile.write(m3ustr)
 
 
