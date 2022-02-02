@@ -42,8 +42,8 @@ def m3ugen():
 
 
 def saveM3ustringtofile(m3ustr):
-    with open("MyOwn.m3u", "w") as MyOwnFile:
-        MyOwnFile.write(m3ustr)
+    with open("Superplay.m3u", "w") as SuperplayFile:
+        Superplay.write(m3ustr)
 
 
 def getPrintNote():
